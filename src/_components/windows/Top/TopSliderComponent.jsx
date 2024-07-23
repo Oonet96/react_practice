@@ -6,18 +6,14 @@ const ImageArr = [ "_images/1.jpg","_images/2.jpg","_images/3.jpg"];
 function TopSliderComponent(){
 
     const [currIndex,setIndex] = useState(0);
-
-    const sliderPanel = document.querySelector('.slider_panel');
-    const controlBtns = document.querySelectorAll('.control_btn');
-
   
     //onMount!
     useEffect(()=>{
-        const timer = setInterval(function(){
+        const Interval = setInterval(function(){
             setIndex((prevIndex) => (prevIndex + 1) % ImageArr.length);
             console.log("onMount Interval currIndex : "+currIndex);
         }, 3000);
-        return ()=>{clearInterval(timer)};
+        return ()=>{clearInterval(Interval)};
     },[])
 
     //currIndex 값이 변경될때마다 동작하는곳
@@ -27,23 +23,13 @@ function TopSliderComponent(){
    
 
     function onClickBtn(bRLDirection){
-        bRLDirection ? setIndex((currIndex+1)%ImageArr.length) :currIndex == 0 ?setIndex(2) : setIndex((currIndex-1)%ImageArr.length);
+        bRLDirection ? setIndex((currIndex+1)%ImageArr.length) :currIndex === 0 ? setIndex(2) : setIndex((currIndex-1)%ImageArr.length);
     }
 
     function onClickDotBtn(index){
         setIndex(index);
     }
-
-    // $(function(){
-
-    //     $controlBtns.on('click',function(){
-    //         currentIndex = parseInt($(this).data('index'));
-    //         updateSlider(currIndex);
-
-    //     });
-        
-    // });
-
+   
     return(
         <div id="sliderZone">
             <div id="sub_photo_bg">
@@ -54,7 +40,7 @@ function TopSliderComponent(){
                     <li className="slider_image"><img src="_images/3.jpg" alt=""/></li> */}
                 </ul>
                 <div className="control_panel">
-                    {ImageArr.map((image,index)=>(<div className={currIndex== index? 'control_btn active' : 'control_btn'} onClick={()=>{onClickDotBtn(index)}}></div>))}
+                    {ImageArr.map((image,index)=>(<div className={currIndex === index? 'control_btn active' : 'control_btn'} onClick={()=>{onClickDotBtn(index)}}></div>))}
                     {/* <div className={currIndex==0 ? 'control_btn active' : 'control_btn'} onClick={()=>{onClickDotBtn(0)}}></div>
                     <div className={currIndex==1 ? 'control_btn active' : 'control_btn'} onClick={()=>{onClickDotBtn(1)}}></div>
                     <div className={currIndex==2 ? 'control_btn active' : 'control_btn'} onClick={()=>{onClickDotBtn(2)}}></div> */}
