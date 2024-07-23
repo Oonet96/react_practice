@@ -1,11 +1,11 @@
 import TopTitleComponent from "./Top/TopTitleComponent";
 import TopMenuComponent from "./Top/TopMenuComponent";
 import TopSliderComponent from "./Top/TopSliderComponent";
-function TopWindow(){
+function TopWindow(props){
     return(
         <div id="topArea">
             <TopTitleComponent/>
-            <TopMenuComponent/>
+            <TopMenuComponent setMenuPage={e=>props.setMenuPage(e)}/>
             <TopSliderComponent/>
         </div>
     );

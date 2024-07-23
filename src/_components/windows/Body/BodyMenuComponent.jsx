@@ -1,15 +1,11 @@
 import './styles/BodyMenu.css';
+import BodyMenuBoxComponent from './BodyMenuBoxComponent';
 
-function BodyMenuComponent(){
+function BodyMenuComponent(props){
     
     return (
         <div id="leftmenuZone">
-            <div id="left_menu_box">
-                <span className="left_menu_title">특별함</span>
-                <ul>
-                    <li className="left_menu"><a href="#">특별함</a></li>
-                </ul>
-            </div>
+            <BodyMenuBoxComponent menuPage={props.menuPage}/>
             <div id="left_banner_box">
                 <span className="left_banner_title">고객센터</span>
                 <ul>
