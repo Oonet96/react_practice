@@ -5,7 +5,7 @@ function BodyMenuComponent(props){
     
     return (
         <div id="leftmenuZone">
-            <BodyMenuBoxComponent menuPage={props.menuPage}/>
+            <BodyMenuBoxComponent menuPage={props.menuPage} menuArr={props.menuArr}/>
             <div id="left_banner_box">
                 <span className="left_banner_title">고객센터</span>
                 <ul>

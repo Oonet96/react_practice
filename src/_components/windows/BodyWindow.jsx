@@ -5,7 +5,7 @@ import BodyContentComponent from "./Body/BodyContentComponent";
 function BodyWindow(props){
     return(
         <div id="bodyArea">
-            <BodyMenuComponent menuPage={props.menuPage}/>
+            <BodyMenuComponent menuPage={props.menuPage} menuArr={props.menuArr}/>
             <BodyContentComponent/>
         </div>
     );

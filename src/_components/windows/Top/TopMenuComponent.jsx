@@ -11,7 +11,18 @@ function TopMenuComponent(props){
     return(
         <div id="menuZone">
             <ul className="mainmenu">
-                <li>
+                {props.menuArr.map((item,index)=>(
+                    <li>
+                        <a href="#" onClick={e=>onClickMenuBtn(e,index)}>{item.title}</a>
+                        <ul className="submenu">
+                            {item.subMenu.map((subItem,index)=>(
+                                <li key={index}><a href="#">{subItem}</a></li>
+                            ))}
+                        </ul>
+                    </li>
+
+                ))}
+                {/* <li>
                     <a href="#" onClick={e=>onClickMenuBtn(e,0)}>캠핑장소개</a>
                     <ul className="submenu">
                         <li><a href="#">인사말</a></li>
@@ -52,7 +63,7 @@ function TopMenuComponent(props){
                         <li><a href="#">이용후기</a></li>
                         <li><a href="#">포토갤러리</a></li>
                     </ul>
-                </li>
+                </li> */}
             </ul>
         </div>
     );

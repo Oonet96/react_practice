@@ -5,7 +5,7 @@ function TopWindow(props){
     return(
         <div id="topArea">
             <TopTitleComponent/>
-            <TopMenuComponent setMenuPage={e=>props.setMenuPage(e)}/>
+            <TopMenuComponent setMenuPage={e=>props.setMenuPage(e)} menuArr={props.menuArr}/>
             <TopSliderComponent/>
         </div>
     );
