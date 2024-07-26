@@ -2,8 +2,6 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import TopWindow from "../windows/TopWindow";
 import BodyWindow from "../windows/BodyWindow";
 import BottomWindow from "../windows/BottomWindow";
-import BodyContentComponent from "../windows/Body/BodyContentComponent";
-import BodyMenuComponent from "../windows/Body/BodyMenuComponent";
 
 const menuData = [
     {title:'캠핑장소개',subMenu:['인사말','시설보기','오시는길']},
@@ -88,7 +86,6 @@ const contentData = [
         ]},
     ]},
 ];
-
 
 
 function Main(){
