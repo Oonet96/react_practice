@@ -17,6 +17,7 @@
     width: 1500px;
     z-index: 0;
     position: relative;
+    margin: 0 auto;
     max-width: 100%;
 }
 
@@ -51,6 +52,7 @@
 .control_panel {
     position: absolute;
     display: flex;
+    /* margin: 0 auto; */
     bottom: 30px;
     left: 50%;
 }
@@ -71,17 +73,17 @@
     width: 100%;
     display: flex;
 }
-.leftBtn>img {
+.leftBtn > .arw-btn{
     transform: rotate(-90deg);
     cursor: pointer;
     position: absolute;
-     left:50px; 
+    left:50px; 
 }
-.rightBtn>img {
-    transform: rotate(90deg);
+.rightBtn > .arw-btn{
+    transform: rotate(-90deg);
     cursor: pointer;
     position: absolute;
-     right:50px; 
+    right:50px; 
 }
 
 /* 베스트상품 */

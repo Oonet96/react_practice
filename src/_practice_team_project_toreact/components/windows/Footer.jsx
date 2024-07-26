@@ -8,36 +8,36 @@ function Footer(){
         <>
             <div id="footer">
 
-                <div class="footerTop">
+                <div className="footerTop">
 
-                    <div class="footerSize">
+                    <div className="footerSize">
 
-                        <div class="footerTopLeft">
+                        <div className="footerTopLeft">
                             <span><a href="#">회사소개</a></span>
                             <div></div>
                             <span><a href="#">이용약관</a></span>
                             <div></div>
-                            <span><a href="#" class="textBold">개인정보처리방침</a></span>
+                            <span><a href="#" className="textBold">개인정보처리방침</a></span>
                             <div></div>
                             <span><a href="#">이용안내</a></span>
                         </div>
 
-                        <div class="footerTopRight"></div>
+                        <div className="footerTopRight"></div>
                     </div>
 
                 </div>
 
-                <div class="footerBottom">
+                <div className="footerBottom">
 
-                    <div class="footerSize">
+                    <div className="footerSize">
 
-                        <div class="footerBottomLeft">
+                        <div className="footerBottomLeft">
 
-                            <div class="footerImg">
+                            <div className="footerImg">
                                 <a href="#"><img src="images/logo.png" alt=""/></a>
                             </div>
 
-                            <div class="footerText">
+                            <div className="footerText">
 
                                 <p>(주) 퓨어셀코리아 <br/>
                                     대표자 : 김철호사업자 등록번호 : 411-81-92320<br/>
@@ -50,9 +50,9 @@ function Footer(){
 
                         </div>
 
-                        <div class="footerBottomRight">
+                        <div className="footerBottomRight">
 
-                            <div class="footerCs">
+                            <div className="footerCs">
 
                                 <h2>CS CENTER 1599-8604</h2>
                                 <p>
@@ -63,7 +63,7 @@ function Footer(){
 
                             </div>
 
-                            <div class="footerBox">
+                            <div className="footerBox">
 
                                 <div><a href="#">1:1문의하기</a></div>
                                 <div><a href="#">자주 묻는 질문</a></div>
