@@ -1,3 +1,7 @@
+// 이벤트 배너
+import top_event_background from '../../images/top_event_background.jpg';
+import m_ic_top_bn from'../../images/m_ic_top_bn.png'
+// 슬라이드 이미지
 import slide01 from '../../images/main_slide_01.jpg';
 import slide02 from '../../images/main_slide_02.jpg';
 import slide03 from '../../images/main_slide_03.jpg';
@@ -9,15 +13,6 @@ import slide08 from '../../images/main_slide_02.jpg';
 import slide09 from '../../images/main_slide_03.jpg';
 
 
-
-// 이벤트 배너
-const top_event_background = '../../images/top_event_background.jpg';
-
-
-export {top_event_background};
-
-
-// 슬라이드 이미지
 
 const SlideImgList = [
     slide01,
@@ -31,4 +26,4 @@ const SlideImgList = [
     slide09
 ];
 
-export {SlideImgList};
+export {SlideImgList,top_event_background,m_ic_top_bn};

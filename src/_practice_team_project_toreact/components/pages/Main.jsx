@@ -9,28 +9,6 @@ function Main(){
         <>
             <div id="main">
                 
-                {/* <div id="main_slide_box">
-        
-                    <div id="main_slide">
-                        <ul className="slider_panel">
-                            {SlideImgList.map(img=>(<li><a href="#"><img src={img} alt=""/></a></li>))}
-                            {SlideImgList.map(img=>(<li><a href="#"><img src={img} alt=""/></a></li>))}
-                        </ul>
-                        
-                        <div className="control_panel">
-                            <div className="control_btn btn_check" data-index="0"></div>
-                            <div className="control_btn" data-index="1"></div>
-                            <div className="control_btn" data-index="2"></div>
-                        </div>
-                        
-                        <div className="slide_btn">
-                            <div className="leftBtn"><BtnTop className="arw-btn"/></div>
-                            <div className="rightBtn"><BtnBottom className="arw-btn"/></div>
-                        </div>
-                    
-                    </div>
-                
-                </div> */}
                 <SlideComponent/>
 
                 <div id="main_best">

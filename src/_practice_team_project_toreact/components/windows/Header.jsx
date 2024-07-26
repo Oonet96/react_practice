@@ -1,5 +1,5 @@
 import '../../style/main_header_JH.css';
-import "../util/SvgComponents.jsx";
+import { top_event_background, m_ic_top_bn } from '../util/ImageAddress.jsx';
 import { BtnKakao, BtnTop, BtnBottom, BtnClose, IconSearch, IconBag } from '../util/SvgComponents.jsx';
 
 function Header(){
@@ -46,9 +46,9 @@ function Header(){
                 <div id="header_top">
 
                     <a href="#">
-                        <img src="../../images/2c8f696ba5f27ed5c5950f5660c53a79.jpg" alt="로딩" className="topBannerImg"/>
+                        <img src={top_event_background} alt="로딩" className="topBannerImg"/>
                         <span>카카오채널 추가시 할인쿠폰 지급
-                            <img src="../../images/m_ic_top_bn.png" alt="쿠폰"/>
+                            <img src={m_ic_top_bn} alt="쿠폰"/>
                         </span>
                     </a>
 
