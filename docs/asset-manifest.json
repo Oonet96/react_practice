@@ -1,28 +1,15 @@
 {
   "files": {
-    "main.css": "/react_practice/static/css/main.997b9574.css",
-    "main.js": "/react_practice/static/js/main.0aba8e53.js",
+    "main.css": "/react_practice/static/css/main.a81c138d.css",
+    "main.js": "/react_practice/static/js/main.78444a9a.js",
     "static/js/453.17882521.chunk.js": "/react_practice/static/js/453.17882521.chunk.js",
-    "static/media/main_slide_02.jpg": "/react_practice/static/media/main_slide_02.a11d5e86e7cafe37e60d.jpg",
-    "static/media/main_slide_03.jpg": "/react_practice/static/media/main_slide_03.7a9d4456d431f28e59d0.jpg",
-    "static/media/main_slide_01.jpg": "/react_practice/static/media/main_slide_01.b2e105739d77c63df687.jpg",
-    "static/media/btn_quick_kakao.svg": "/react_practice/static/media/btn_quick_kakao.22e068cf06197adce85ec5ec4eb9bf6d.svg",
-    "static/media/btn_quick_bottom.svg": "/react_practice/static/media/btn_quick_bottom.a11b52b46400adec30ccccce564223ba.svg",
-    "static/media/btn_quick_top.svg": "/react_practice/static/media/btn_quick_top.bb543043a45e94b68581ddffe43704d6.svg",
-    "static/media/ic_sns_kakao.svg": "/react_practice/static/media/ic_sns_kakao.83995b49f3cd8cf0ddeb3aafa453f95d.svg",
-    "static/media/ic_sns_insta.svg": "/react_practice/static/media/ic_sns_insta.4f2043835c028a8cf92384fbd3c41bff.svg",
-    "static/media/ic_sns_facebook.svg": "/react_practice/static/media/ic_sns_facebook.828992d3dcc29b32e4c1d818e45670ce.svg",
     "index.html": "/react_practice/index.html",
-    "static/media/ic_bag.svg": "/react_practice/static/media/ic_bag.67168c83e5aa07a6ec52acb307fa228d.svg",
-    "static/media/ic_hd_search.svg": "/react_practice/static/media/ic_hd_search.c77ac70671d3ce75ea90b3b279e265c3.svg",
-    "static/media/btn_search_close.svg": "/react_practice/static/media/btn_search_close.8c8674b2a83b5348065687aa97dd30e0.svg",
-    "static/media/btn_more.svg": "/react_practice/static/media/btn_more.a00e83fc4c848e04f41c4ad34d6f084f.svg",
-    "main.997b9574.css.map": "/react_practice/static/css/main.997b9574.css.map",
-    "main.0aba8e53.js.map": "/react_practice/static/js/main.0aba8e53.js.map",
+    "main.a81c138d.css.map": "/react_practice/static/css/main.a81c138d.css.map",
+    "main.78444a9a.js.map": "/react_practice/static/js/main.78444a9a.js.map",
     "453.17882521.chunk.js.map": "/react_practice/static/js/453.17882521.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.997b9574.css",
-    "static/js/main.0aba8e53.js"
+    "static/css/main.a81c138d.css",
+    "static/js/main.78444a9a.js"
   ]
 }
